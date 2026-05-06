@@ -52,7 +52,16 @@ Control object creation so only one instance exists.
 
 ---
 
-## ✅ Example
+## ❌ Bad Approach
+
+```ts
+const config1 = new Config();
+const config2 = new Config(); // Multiple instances ❌
+```
+
+---
+
+## ✅ Good Approach
 
 ```ts
 class Logger {
@@ -121,8 +130,16 @@ Delegate object creation to a factory instead of using `new`.
 - UI components  
 
 ---
+## ❌ Bad Example
 
-## ✅ Example
+```ts
+const dog = new Dog();
+const cat = new Cat(); // Tight coupling ❌
+```
+
+---
+
+## ✅ Good Example
 
 ```ts
 interface Animal {
@@ -264,8 +281,18 @@ Separate object construction from representation.
 - Step-by-step configuration  
 
 ---
+## ❌ Problem
 
-## ✅ Example
+Too many constructor parameters:
+
+```ts
+new User("Banu", 25, "email", "phone", "address"); // messy ❌
+```
+
+---
+
+## ✅ Good Example
+
 
 ```ts
 class User {
