@@ -1,0 +1,1 @@
+# Visualize a Data Mining Tool that analyzes different file types (PDF, CSV, Doc). The high-level process is always the same: Open File, Extract Raw Data, Analyze, and Close File. The "Template" defines this fixed sequence, but allows subclasses to provide their own specific implementation for the Extract step depending on the file format.

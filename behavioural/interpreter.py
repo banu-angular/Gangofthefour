@@ -1,0 +1,1 @@
+# Consider a Basic Calculator that reads a string like 5 + 2 * 3. The Interpreter pattern builds a tree structure where each number and operator is a "rule." It then evaluates this tree to produce a result. This pattern is essentially used whenever you need to define a simple language and process its grammar.

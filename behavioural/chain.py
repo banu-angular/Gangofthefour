@@ -1,0 +1,1 @@
+# Imagine a Technical Support Phone System. Your call first goes to an automated bot (Level 1). If the bot can't solve your issue, it passes the call to a human technician (Level 2). If the technician is stumped, they escalate it to a senior engineer (Level 3). The request travels down a chain until someone is qualified to handle it.

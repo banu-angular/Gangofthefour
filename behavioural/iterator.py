@@ -1,0 +1,1 @@
+# Consider a Music Playlist. You want to be able to go through your songs one by one without needing to know if the playlist is stored as a simple list, a complex tree structure, or a remote database. The Iterator provides a standard "Next" and "HasNext" interface, allowing you to traverse the collection uniformly regardless of how it's organized.

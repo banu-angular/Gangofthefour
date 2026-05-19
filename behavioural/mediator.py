@@ -1,0 +1,1 @@
+# Think of an Airport Control Tower. If every pilot tried to communicate directly with every other pilot to coordinate landings, there would be chaos. Instead, all pilots talk only to the Control Tower (the Mediator). The tower handles the complex coordination and tells each pilot when it is safe to land, keeping the individual planes decoupled from one another.

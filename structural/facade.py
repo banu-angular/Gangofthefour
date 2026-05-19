@@ -10,7 +10,6 @@ class Lights:
 class Projector:
     def on(self):
         print("Projector is ON.")
-
     def set_input(self, input_source):
         print(f"Projector input set to {input_source}.")
 class SoundSystem:

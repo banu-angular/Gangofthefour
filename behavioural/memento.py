@@ -1,0 +1,1 @@
+# Think of a Text Editor's Undo Feature. Before you make a major change, the editor takes a "snapshot" of the current text and stores it in a small object (the Memento). If you realize you've made a mistake, the editor can reach back into its history and restore the previous state from that snapshot, effectively traveling back in time.
